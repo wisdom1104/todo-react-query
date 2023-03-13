@@ -1,0 +1,28 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "리액트",
+      "content": "할만한 줄......",
+      "isDone": false
+    },
+    {
+      "id": 2,
+      "title": "리덕스",
+      "content": "울고 말았지......",
+      "isDone": true
+    },
+    {
+      "title": "와우",
+      "content": "내가 해냈다!!!!!!!!!!",
+      "isDone": false,
+      "id": 3
+    },
+    {
+      "title": "리액트 쿼리",
+      "content": "껌이네....ㅎ",
+      "isDone": true,
+      "id": 4
+    }
+  ]
+}
