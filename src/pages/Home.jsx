@@ -5,15 +5,15 @@ import Working from "../components/Working";
 import Done from "../components/Done";
 import { Stlayout, StMain } from "../GlobalStyles";
 
-function Home() {
+function Home({ data }) {
   return (
     <>
       <Stlayout>
         <Header />
         <Form />
         <StMain>
-          <Working />
-          <Done />
+          <Working data={data} />
+          <Done data={data} />
         </StMain>
       </Stlayout>
     </>
